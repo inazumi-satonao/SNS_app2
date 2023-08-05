@@ -4,7 +4,7 @@ class TopicsController < ApplicationController
   end
 
   def create
-    redirect_to 'topics/new'
+    redirect_to  create_topcic_path
   end
 
   def edit
