@@ -2,11 +2,19 @@ ja:
   activerecord:
     models:
       user: 'ユーザー'
+      post: '投稿'
+      topic: 'トピック'
     attributes:
       user:
         email: 'メールアドレス'
         password: 'パスワード'
         password_confirmation: 'パスワード確認用'
+      post:
+        title: 'タイトル'
+        content: '内容'
+        image: '画像'
+      topic:
+        title: 'タイトル'
 
   date:
     abbr_day_names:
