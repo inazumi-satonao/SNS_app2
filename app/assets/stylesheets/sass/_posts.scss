@@ -1,9 +1,9 @@
-.post-form-container
+.post-form-container {
   .h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  
+
   .post-form {
     .form-control {
       width: 100%;
@@ -12,14 +12,14 @@
       padding: 10px;
       margin-bottom: 10px;
     }
-  
+
     .form-label {
       font-weight: bold;
     }
-   
+
     .image-upload {
       margin-top: 20px;
-    
+
       .image-preview {
         width: 100%;
         min-height: 200px;
@@ -29,23 +29,23 @@
         justify-content: center;
         font-weight: bold;
         color: lightgray;
-      
+
         .image-preview__image {
           display: none;
           width: 100%;
         }
-      
+
         .image-preview__image.-block {
           display: block;
           width: 100%;
         }
-      
+
         .image-preview__default-text.-none {
           display: none;
         }
       }
     }
-    
+
     .button-group {
       text-align: right;
       .btn {
