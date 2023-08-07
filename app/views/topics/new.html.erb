@@ -6,7 +6,7 @@
       
         <% if @topic.errors.any? %>
           <ul>
-            <% @topic.errors.full_message.each do |message| %>
+            <% @topic.errors.full_messages.each do |message| %>
               <li><%= message %></li>
             <% end %>
           </ul>
