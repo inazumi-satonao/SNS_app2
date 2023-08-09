@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-8 mx-auto post-form-container">
       <h2 class="h2">新規投稿</h2>
-      <%= form_with(url: create_post_path, model: @post, local: true, method: :post, html: {class: 'pot-form' } ) do |f| %>
+      <%= form_with(url: create_post_path, model: @post, local: true, method: :post, html: {class: 'port-form' } ) do |f| %>
         <% if @post.errors.any? %>
           <ul>
             <% @post.errors.full_messages.each do |message| %>
