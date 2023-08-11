@@ -37,7 +37,7 @@ class PostsController < ApplicationController
   
   def update
     @post = Post.find(params[:id])
-    if prams[:post][:image]
+    if params[:post][:image]
       @post.image.attach(params[:post][:image])
     end
     if @post.update(post_params)
