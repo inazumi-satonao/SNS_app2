@@ -38,9 +38,9 @@
     text-decoration: none;
 
     .body {
-      display: grid;
-      grid-template-columns: 1fr 100%;
-      column-gap: 8px;
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
 
       .content {
         margin: 0;

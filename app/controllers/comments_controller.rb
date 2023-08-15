@@ -15,7 +15,7 @@ class CommentsController < ApplicationController
     else
       @post = Post.find(params[:post_id])
       @comments = Comment.where(post_id: params[:post_id])
-      render :new, status: :unprocessable_entitiy
+      render :new, status: :unprocessable_entity
     end
   end
   
