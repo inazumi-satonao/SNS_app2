@@ -23,4 +23,5 @@ Rails.application.routes.draw do
   post '/topics/new', to: 'topics#create', as: 'create_topic'
   get 'topics/edit/:id', to: 'topics#edit', as: 'edit_topic' 
   post '/topics/edit/:id', to: 'topics#update', as: 'update_topic'
+  get 'topics/index', to: 'topics#index', as: 'index_topic'
 end
